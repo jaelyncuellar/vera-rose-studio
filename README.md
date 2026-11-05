@@ -1,18 +1,18 @@
 # Vera Rose Studio
 
-**A luxury portrait & brand photography studio site — dark-first, glassmorphism design system, full booking inquiry flow.**
+**A luxury portrait & brand photography studio site - dark-first, glassmorphism design system, full booking inquiry flow.**
 
-![Vera Rose Studio — home page in dark mode](docs/screenshots/home-desktop.jpg)
+![Vera Rose Studio - home page in dark mode](docs/screenshots/home-desktop.jpg)
 
 Vera Rose Studio is a fictional New York photography studio created as a portfolio
 showcase. It demonstrates a complete, production-style brand site: an editorial
 long-form home page, a lightbox gallery, service guidelines, transparent pricing,
-and a validated booking inquiry form — all wrapped in a refined glassmorphism
+and a validated booking inquiry form - all wrapped in a refined glassmorphism
 design system with a dark default theme.
 
 ## Walkthrough
 
-[▶ Watch the walkthrough (43s)](docs/walkthrough.mp4) — a scrolling tour of the home page, the gallery, the investment page, and the full Reserve booking form, all in the dark default theme.
+[▶ Watch the walkthrough (43s)](docs/walkthrough.mp4) - a scrolling tour of the home page, the gallery, the investment page, and the full Reserve booking form, all in the dark default theme.
 
 [![Watch the video walkthrough](docs/walkthrough-poster.jpg)](docs/walkthrough.mp4)
 
@@ -20,25 +20,25 @@ design system with a dark default theme.
 
 ## Highlights
 
-- **Dark-first theming** — the site renders dark on first paint (no light flash);
+- **Dark-first theming** - the site renders dark on first paint (no light flash);
   the light theme is one tap away and each visitor's choice is remembered
-- **Glassmorphism, done properly** — frosted panes with a hairline edge, an inset
+- **Glassmorphism, done properly** - frosted panes with a hairline edge, an inset
   top highlight (light catching the rim), and deep soft shadows, used sparingly:
   the floating navbar and the hero title cards
-- **Editorial type system** — Playfair Display headlines, Cormorant Garamond body,
+- **Editorial type system** - Playfair Display headlines, Cormorant Garamond body,
   Allura script accents, letter-spaced uppercase micro-labels
-- **Motion** — staggered fade-up reveals, a typed script headline, and a navbar
+- **Motion** - staggered fade-up reveals, a typed script headline, and a navbar
   that firms up (rose edge + stronger shadow) once you scroll
-- **Booking inquiry flow** — preferred-contact validation (email *or* phone),
+- **Booking inquiry flow** - preferred-contact validation (email *or* phone),
   date-driven time-slot availability (closed Sundays, Saturday mornings only),
   session picker, honeypot field, and a submit-timing bot check
-- **Fully responsive** — dedicated mobile hero imagery and a glass mobile menu
+- **Fully responsive** - dedicated mobile hero imagery and a glass mobile menu
 
 ## Pages
 
 | Route | What it is |
 | --- | --- |
-| `/` | About — typed hero, long-form studio story, explore footer |
+| `/` | About - typed hero, long-form studio story, explore footer |
 | `/gallery` | Editorial gallery with click-to-open lightbox |
 | `/experience` | Session guidelines, numbered I–V |
 | `/investment` | Session menu with pricing + the 3-step process |
@@ -68,7 +68,7 @@ design system with a dark default theme.
 Fonts: Playfair Display (headers) · Cormorant Garamond (body) · Allura (script)
 
 The glass treatment lives in `src/app/globals.css` as reusable `.glass-card` /
-`.glass-nav` classes — a 1px translucent border, inset top highlight, and layered
+`.glass-nav` classes - a 1px translucent border, inset top highlight, and layered
 shadow on top of `backdrop-blur`, with dark-mode variants.
 
 ## Tech stack
