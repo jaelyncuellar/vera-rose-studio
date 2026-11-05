@@ -1,36 +1,36 @@
 # Vera Rose Studio
 
-**A luxury portrait & brand photography studio site — dark-first, glassmorphism design system, full booking inquiry flow.**
+**A luxury portrait & brand photography studio site - dark-first, glassmorphism design system, full booking inquiry flow.**
 
 ![Vera Rose Studio — home page in dark mode](docs/screenshots/home-desktop.jpg)
 
 Vera Rose Studio is a fictional New York photography studio created as a portfolio
 showcase. It demonstrates a complete, production-style brand site: an editorial
 long-form home page, a lightbox gallery, service guidelines, transparent pricing,
-and a validated booking inquiry form — all wrapped in a refined glassmorphism
+and a validated booking inquiry form - all wrapped in a refined glassmorphism
 design system with a dark default theme.
 
 ## Highlights
 
-- **Dark-first theming** — the site renders dark on first paint (no light flash);
+- **Dark-first theming** - the site renders dark on first paint (no light flash);
   the light theme is one tap away and each visitor's choice is remembered
-- **Glassmorphism, done properly** — frosted panes with a hairline edge, an inset
+- **Glassmorphism, done properly** - frosted panes with a hairline edge, an inset
   top highlight (light catching the rim), and deep soft shadows, used sparingly:
   the floating navbar and the hero title cards
-- **Editorial type system** — Playfair Display headlines, Cormorant Garamond body,
+- **Editorial type system** - Playfair Display headlines, Cormorant Garamond body,
   Allura script accents, letter-spaced uppercase micro-labels
-- **Motion** — staggered fade-up reveals, a typed script headline, and a navbar
+- **Motion** - staggered fade-up reveals, a typed script headline, and a navbar
   that firms up (rose edge + stronger shadow) once you scroll
-- **Booking inquiry flow** — preferred-contact validation (email *or* phone),
+- **Booking inquiry flow** - preferred-contact validation (email *or* phone),
   date-driven time-slot availability (closed Sundays, Saturday mornings only),
   session picker, honeypot field, and a submit-timing bot check
-- **Fully responsive** — dedicated mobile hero imagery and a glass mobile menu
+- **Fully responsive** - dedicated mobile hero imagery and a glass mobile menu
 
 ## Pages
 
 | Route | What it is |
 | --- | --- |
-| `/` | About — typed hero, long-form studio story, explore footer |
+| `/` | About - typed hero, long-form studio story, explore footer |
 | `/gallery` | Editorial gallery with click-to-open lightbox |
 | `/experience` | Session guidelines, numbered I–V |
 | `/investment` | Session menu with pricing + the 3-step process |
@@ -40,13 +40,20 @@ design system with a dark default theme.
 
 ## Screenshots
 
-| Gallery | Investment |
-| --- | --- |
-| ![Gallery](docs/screenshots/gallery.jpg) | ![Investment](docs/screenshots/investment.jpg) |
+| Gallery | Investment | Footer | 
+| --- | --- | --- | 
+| ![Gallery](docs/screenshots/gallery.jpg) | ![Investment](docs/screenshots/investment.jpg) | <img width="1351" height="684" alt="vera-rose-footer" src="https://github.com/user-attachments/assets/bc548411-54cb-43f3-b371-b6397f436c64" />
+
 
 | Experience | Reserve | Mobile |
 | --- | --- | --- |
 | ![Experience](docs/screenshots/experience.jpg) | ![Reserve form](docs/screenshots/reserve.jpg) | ![Mobile home](docs/screenshots/mobile.jpg) |
+
+## Walkthrough 
+
+https://github.com/user-attachments/assets/4fb2feb0-e3ff-4941-a620-29812a91bc47
+
+
 
 ## Design system
 
